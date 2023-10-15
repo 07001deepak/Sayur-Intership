@@ -1,0 +1,47 @@
+Step 1: Start the program.
+
+Step 2: Create the class named as InstagramPost.
+             class InstagramPost:
+
+Step 3: Initialize the  private Variables as
+             private String username
+             private String caption
+             private Image image
+
+Step 4: Initialize the Public Variables as
+             private String username
+             private Image image
+
+Step 5:  Define the constructor for class InstagramPost and Get the input passed by the user 
+              public InstagramPost(username, caption, image):
+              this.username = username
+              this.image = image
+              this.likes = 0
+              this.timestamp = currentDateTime 
+         
+
+Step 6: Define Method called addLike() to receive likes by user and increment it.
+               public void addLike():
+              // Increment the number of likes
+                  this.likes++
+
+Step 7: Define Method called addComment() and receive the comment which is passed by the user.
+            public void addComment(comment):
+           // Add a comment to the list of comments
+           this.comments.add(comment)
+Step 8: Define a Method named as SharePost()        
+          public void sharePost():
+         // Share the post to other platforms or users
+
+Step 9: Define  a named as deletePost() to delete the post
+        public void deletePost():
+        // Delete the post
+
+Step 10: Define method getLikes which returns the likes and go to step 6
+    public int getLikes():
+        // Get the number of likes
+        return this.likes
+Step 11: Create the object for the class InstagramPost and call all the function defined inside the class.
+
+Step 12: Stop
+
